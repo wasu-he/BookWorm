@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BookWorm</string>
+    <string name="post_book">Post Book</string>
+    <string name="read_with_us_and_crave_with_us">Read with us and crave with us...</string>
+    <string name="book_worm">Book Worm</string>
+    <string name="book_name">Book Name</string>
+    <string name="discription">Discription</string>
+    <string name="price">Price</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PublisherHomeNavi">
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/teal_700"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/book1"-->
+<!--        android:layout_width="375dp"-->
+<!--        android:layout_height="575dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="17dp"-->
+<!--        android:layout_marginRight="17dp"-->
+<!--        android:layout_marginBottom="90dp"-->
+<!--        android:text=""-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold"/>-->
+
+    <ListView
+        android:id="@+id/bookList"
+        android:layout_width="match_parent"
+        android:layout_height="673dp" />
+
+
+</RelativeLayout>
