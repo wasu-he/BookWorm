@@ -69,6 +69,7 @@ public class DeleteUpdate extends AppCompatActivity {
                            public void onDataChange(@NonNull DataSnapshot snapshot) {
                                for (DataSnapshot snapshot1 : snapshot.getChildren()){
                                    snapshot1.getRef().removeValue();
+                                   reference.child(String.valueOf(snapshot1.getChildrenCount()));
 
                                }
                            }
