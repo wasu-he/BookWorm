@@ -44,8 +44,6 @@ public class PublisherHomeNavi extends AppCompatActivity {
 
 
 
-        Intent intent = getIntent();
-
 
 
 
